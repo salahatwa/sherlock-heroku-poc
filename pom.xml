@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.sherlock</groupId>
-	<artifactId>herokupoc</artifactId>
+	<groupId>com.salahatwa</groupId>
+	<artifactId>salahatwa</artifactId>
 	<version>1.0.0-${timestamp}</version>
 	<packaging>jar</packaging>
 
@@ -15,7 +15,7 @@
 		<relativePath />
 	</parent>
 
-	<name>herokupoc</name>
+	<name>salahatwa</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -33,9 +33,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:arjunchakri/sherlock-heroku-poc.git</connection>
-		<developerConnection>scm:git:git@github.com:arjunchakri/sherlock-heroku-poc.git</developerConnection>
-		<url>https://github.com/arjunchakri/sherlock-heroku-poc/tree/master</url>
+		<connection>scm:git:git@github.com:salahatwa/sherlock-heroku-poc.git</connection>
+		<developerConnection>scm:git:git@github.com:salahatwa/sherlock-heroku-poc.git</developerConnection>
+		<url>https://github.com/salahatwa/sherlock-heroku-poc/tree/master</url>
 	</scm>
 
 	<dependencies>
@@ -100,7 +100,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/arjunchakri/sherlock-heroku-poc</url>
+			<url>https://maven.pkg.github.com/salahatwa/sherlock-heroku-poc</url>
 		</repository>
 	</distributionManagement>
 
